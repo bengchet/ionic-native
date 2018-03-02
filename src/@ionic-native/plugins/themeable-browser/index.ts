@@ -28,6 +28,11 @@ export interface ThemeableBrowserOptions {
     staticText?: string;
     showPageTitle?: boolean;
   };
+  browserProgress?: {
+    showProgress?: boolean;
+    progressBgColor?: string;
+    progressColor?: string;
+  };
   backButton?: ThemeableBrowserButton;
   forwardButton?: ThemeableBrowserButton;
   closeButton?: ThemeableBrowserButton;
